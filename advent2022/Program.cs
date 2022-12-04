@@ -1,6 +1,7 @@
 ﻿using advent2022.day1;
 using advent2022.day2;
 using advent2022.day3;
+using advent2022.day4;
 
 Console.WriteLine("Let's play Advent of Code 2022!");
 
@@ -12,3 +13,6 @@ new RockingElf().Execute();
 
 Console.WriteLine("Day 3");
 new LoadingElf().Execute();
+
+Console.WriteLine("Day 4");
+new PairingCleaners().Execute();
