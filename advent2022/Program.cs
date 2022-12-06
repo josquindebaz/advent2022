@@ -3,6 +3,7 @@ using advent2022.day2;
 using advent2022.day3;
 using advent2022.day4;
 using advent2022.day5;
+using advent2022.day6;
 
 Console.WriteLine("Let's play Advent of Code 2022!");
 
@@ -20,3 +21,7 @@ new PairingCleaners().Execute();
 
 Console.WriteLine("Day 5");
 new CraneOperator().Execute();
+
+Console.WriteLine("Day 6");
+new StreamerDecode().Execute();
+
