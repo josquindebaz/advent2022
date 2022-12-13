@@ -6,6 +6,7 @@ using advent2022.day5;
 using advent2022.day6;
 using advent2022.day7;
 using advent2022.day8;
+using advent2022.day9;
 
 Console.WriteLine("Let's play Advent of Code 2022!");
 
@@ -32,4 +33,8 @@ new SpaceMaker().Execute();
 
 Console.WriteLine("Day 8");
 new TreeHouse().Execute();
+
+Console.WriteLine("Day 9");
+new Plancker().Execute();
+
 
