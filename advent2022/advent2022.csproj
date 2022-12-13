@@ -57,6 +57,18 @@
       <EmbeddedResource Include="day9\test2.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </EmbeddedResource>
+      <None Remove="day10\test.txt" />
+      <EmbeddedResource Include="day10\test.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="day10\test0.txt" />
+      <EmbeddedResource Include="day10\test0.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="day10\input.txt" />
+      <EmbeddedResource Include="day10\input.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
     </ItemGroup>
 
 </Project>
