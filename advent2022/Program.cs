@@ -1,5 +1,6 @@
 ﻿using advent2022.day1;
 using advent2022.day10;
+using advent2022.day11;
 using advent2022.day2;
 using advent2022.day3;
 using advent2022.day4;
@@ -40,5 +41,10 @@ new Plancker().Execute();
 
 Console.WriteLine("Day 10");
 new SignalStrength().Execute();
+
+Console.WriteLine("Day 11");
+new MonkeyBusiness().Execute();
+new Monkey2().Execute();
+
 
 
