@@ -6,7 +6,6 @@ namespace advent2022.day11;
 
 public class Monkey2
 {
-    [SuppressMessage("ReSharper.DPA", "DPA0002: Excessive memory allocations in SOH", MessageId = "type: System.Int32[]; size: 340MB")]
     public void Execute()
     {
         var content = File.ReadAllText("./day11/test.txt");
