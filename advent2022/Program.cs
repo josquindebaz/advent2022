@@ -4,6 +4,7 @@ using advent2022.day11;
 using advent2022.day12;
 using advent2022.day13;
 using advent2022.day14;
+using advent2022.day15;
 using advent2022.day2;
 using advent2022.day3;
 using advent2022.day4;
@@ -55,7 +56,10 @@ Console.WriteLine("Let's play Advent of Code 2022!");
 // Console.WriteLine("Day 13");
 // new DistressSignal().Execute();
 
-Console.WriteLine("Day 14");
-new SandBox().Execute();
-new SandBox2().Execute();
+// Console.WriteLine("Day 14");
+// new SandBox().Execute();
+// new SandBox2().Execute();
+
+Console.WriteLine("Day 15");
+new Sensors().Execute();
 
